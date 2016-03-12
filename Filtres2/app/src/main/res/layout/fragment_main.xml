@@ -1,21 +1,26 @@
 <FrameLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:android="http://schemas.android.com/apk/res/android"> <CheckBox
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:id="@+id/Ensoleillé"
-    android:textStyle="bold"
-    android:enabled="false" />
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Large Text"
+        android:text="Ensoleillé"
         android:id="@+id/Lorsque_votre_texte_est_ensoleillé" />
 
-    </FrameLayout>
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="98dp"
+        android:text="Selection"
+        android:id="@+id/SelectionEnsoleillé"
+        android:layout_gravity="center"
+        android:textOn="Sélectionné"
+        android:textOff="Non Sélecttionné" />
+
+</FrameLayout>
+
 
 
 
