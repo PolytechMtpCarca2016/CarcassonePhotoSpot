@@ -1,45 +1,43 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
+    android:orientation="vertical"
+    android:theme="@style/AppTheme"
+    android:focusableInTouchMode="true"
+    android:focusable="true"
+    android:contextClickable="false">
 
-    <TabHost
+
+    <LinearLayout
+        android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/tabHost">
+        android:layout_height="55dp"
+        android:background="#9f9f9f">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="PhotoSpot"
+            android:id="@+id/textView"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:textColor="#ffffff" />
 
-            <TabWidget
-                android:id="@android:id/tabs"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"></TabWidget>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Filtres"
+            android:id="@+id/button"
+            android:layout_marginLeft="155dp"
+            android:background="#444444"
+            android:layout_marginTop="3dp"
+            android:textColor="#ffffff"
+            android:shadowColor="#000000"
+            android:clickable="true"
+            android:theme="@style/AppTheme" />
 
-            <FrameLayout
-                android:id="@android:id/tabcontent"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <LinearLayout
-                    android:id="@+id/linearLayout"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal">
-
-                    <Button
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="New Button"
-                        android:id="@+id/button" />
-                </LinearLayout>
-
-
-            </FrameLayout>
-        </LinearLayout>
-    </TabHost>
+    </LinearLayout>
 
     <fragment xmlns:map="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -49,4 +47,5 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="hackatoncarcassonne.photospotcarca.MapsActivity" />
+
 </LinearLayout>
