@@ -21,6 +21,7 @@ import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.CameraPosition;
 import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 
 public class MapsActivity extends AppCompatActivity implements OnMapReadyCallback {
@@ -78,8 +79,178 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         // Add a marker in Sydney and move the camera
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(carcassonne, 16.38f));
 
+<<<<<<< HEAD
         // Ajout des marqueurs pour la démonstration
 
+=======
+        //Photo1 EMPLACEMENT
+>>>>>>> master
 
-    }
-}
+        final LatLng EntreeNordOuest = new LatLng(43.207516, 2.366192);
+
+
+        //COLOR
+
+        Marker DouveColor = mMap.addMarker(new MarkerOptions()
+                .position(DouveColor)
+                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE)));
+
+                        //PHOTO
+
+                        Marker Douve = mMap.addMarker(new MarkerOptions()
+                                .position(Douve)
+                                .title("L'entre du chateau")
+                                .snippet("Une vue sur le pont levis et l'entree du chateau")
+                                .icon(BitmapDescriptorFactory.fromResource(R.drawable.arrow)));
+
+        //Photo2 EMPLACEMENT
+
+        final LatLng DouvePorteNarbonaise = new LatLng(43.206702, 2.365674);
+
+
+        //COLOR
+
+        Marker DouvePorteNarbonnaiseColor = mMap.addMarker(new MarkerOptions()
+                .position(DouvePorteNarbonaiseColor)
+                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE)));
+
+                        //PHOTO
+
+                        Marker DouvePorteNarbonaise = mMap.addMarker(new MarkerOptions()
+                                .position(DouvePorteNarbonaise)
+                                .title("Les douves du chateau")
+                                .snippet("Une vue sur les douves du chateau")
+                                .icon(BitmapDescriptorFactory.fromResource(R.drawable.arrow)));
+
+        //Photo3 EMPLACEMENT
+
+        final LatLng EntreeNordOuest = new LatLng(43.207516, 2.366192);
+
+
+        //COLOR
+
+        Marker EntreNordOuestColor = mMap.addMarker(new MarkerOptions()
+                .position(EntreeNordOuestColor)
+                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE)));
+
+                        //PHOTO
+
+                        Marker EntreNordOuest = mMap.addMarker(new MarkerOptions()
+                                .position(EntreeNordOuest)
+                                .title("Vue vers le sud de l'entre du chateau")
+                                .snippet("Une vue sur le pont levis et l'entree du chateau")
+                                .icon(BitmapDescriptorFactory.fromResource(R.drawable.arrow)));
+
+        //Photo5 EMPLACEMENT
+
+        final LatLng Cathédrale = new LatLng(43.207516, 2.366192);
+
+
+        //COLOR
+
+        Marker CathédraleColor = mMap.addMarker(new MarkerOptions()
+                .position(CathédraleColor)
+                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE)));
+
+                        //PHOTO
+
+                        Marker Cathédrale = mMap.addMarker(new MarkerOptions()
+                                .position(Cathédrale)
+                                .title("Vue vers le sud de l'entre du chateau")
+                                .snippet("Une vue sur le pont levis et l'entree du chateau")
+                                .icon(BitmapDescriptorFactory.fromResource(R.drawable.arrow)));
+
+        //Photo6 EMPLACEMENT
+
+        final LatLng amphithéatre = new LatLng(43.207516, 2.366192);
+
+
+        //COLOR
+
+        Marker AmphithéatreColor = mMap.addMarker(new MarkerOptions()
+                .position(AmphithéatreColor)
+                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE)));
+
+                        //PHOTO
+
+                        Marker Amphithéatre = mMap.addMarker(new MarkerOptions()
+                                .position(Amphithéatre)
+                                .title("Vue vers le sud de l'entre du chateau")
+                                .snippet("Une vue sur le pont levis et l'entree du chateau")
+                                .icon(BitmapDescriptorFactory.fromResource(R.drawable.arrow)));
+
+        //Photo7 EMPLACEMENT
+
+        final LatLng MuraillesSud = new LatLng(43.207516, 2.366192);
+
+
+        //COLOR
+
+        Marker MuraillesSudColor = mMap.addMarker(new MarkerOptions()
+                .position(MuraillesSudColor)
+                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE)));
+
+                        //PHOTO
+
+                        Marker MuraillesSud = mMap.addMarker(new MarkerOptions()
+                                .position(MuraillesSud)
+                                .title("Vue vers le sud de l'entre du chateau")
+                                .snippet("Une vue sur le pont levis et l'entree du chateau")
+                                .icon(BitmapDescriptorFactory.fromResource(R.drawable.arrow)));
+
+        //Photo8 EMPLACEMENT
+
+        final LatLng Arche = new LatLng(43.207516, 2.366192);
+
+
+        //COLOR
+
+        Marker ArcheColor = mMap.addMarker(new MarkerOptions()
+                .position(ArcheColor)
+                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE)));
+
+                        //PHOTO
+
+                        Marker Arche = mMap.addMarker(new MarkerOptions()
+                                .position(Arche)
+                                .title("Vue vers le sud de l'entre du chateau")
+                                .snippet("Une vue sur le pont levis et l'entree du chateau")
+                                .icon(BitmapDescriptorFactory.fromResource(R.drawable.arrow)));
+
+        //Photo9 EMPLACEMENT
+
+        final LatLng DouveChâteau = new LatLng(43.207516, 2.366192);
+
+
+        //COLOR
+
+        Marker DouveChâteauColor = mMap.addMarker(new MarkerOptions()
+                .position(DouveChâteauColor)
+                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE)));
+
+                        //PHOTO
+
+                        Marker DouveChâteau = mMap.addMarker(new MarkerOptions()
+                                .position(DouveChâteau)
+                                .title("Vue vers le sud de l'entre du chateau")
+                                .snippet("Une vue sur le pont levis et l'entree du chateau")
+                                .icon(BitmapDescriptorFactory.fromResource(R.drawable.arrow)));
+
+        //Photo10 EMPLACEMENT
+
+        final LatLng château = new LatLng(43.207516, 2.366192);
+
+
+        //COLOR
+
+        Marker châteauColor = mMap.addMarker(new MarkerOptions()
+                .position(châteauColor)
+                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE)));
+
+                        //PHOTO
+
+                        Marker château = mMap.addMarker(new MarkerOptions()
+                                .position(château)
+                                .title("Vue vers le sud de l'entre du chateau")
+                                .snippet("Une vue sur le pont levis et l'entree du chateau")
+                                .icon(BitmapDescriptorFactory.fromResource(R.drawable.arrow)));
