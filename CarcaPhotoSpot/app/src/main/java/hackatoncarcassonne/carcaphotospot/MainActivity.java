@@ -11,7 +11,6 @@ import android.widget.CompoundButton;
 import android.widget.ImageView;
 import android.widget.ToggleButton;
 
-import static hackatoncarcassonne.carcaphotospot.R.id.soleil;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -22,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         setTitle("Filtres Météo");
-        
+
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 

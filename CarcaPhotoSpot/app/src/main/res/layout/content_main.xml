@@ -11,6 +11,16 @@
         tools:showIn="@layout/activity_main">
 
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Filtrez les meilleurs points de vues en fonctions des conditions météo:"
+        android:id="@+id/textView4"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="5dp" />
+
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
@@ -18,11 +28,13 @@
         android:gravity="center_vertical|center_horizontal|right"
         android:layout_marginRight="35dp">
 
-        <ImageView
-            android:layout_width="140dp"
-            android:layout_height="140dp"
-            android:id="@+id/soleil"
-            android:layout_marginRight="60dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Journée ensoleillée"
+            android:id="@+id/textView"
+            android:layout_marginRight="25dp" />
 
         <ToggleButton
             android:layout_width="wrap_content"
@@ -40,11 +52,13 @@
         android:gravity="center_vertical|center_horizontal|right"
         android:layout_marginRight="35dp">
 
-        <ImageView
-            android:layout_width="140dp"
-            android:layout_height="140dp"
-            android:id="@+id/imageView2"
-            android:layout_marginRight="60dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Journée pluvieuse"
+            android:id="@+id/textView2"
+            android:layout_marginRight="25dp" />
 
         <ToggleButton
             android:layout_width="wrap_content"
@@ -61,10 +75,13 @@
         android:gravity="center_vertical|center_horizontal|right"
         android:layout_marginRight="35dp">
 
-        <ImageView
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/imageView3" />
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView3"
+            android:text="Journée venteuse"
+            android:layout_marginRight="25dp" />
 
         <ToggleButton
             android:layout_width="wrap_content"
