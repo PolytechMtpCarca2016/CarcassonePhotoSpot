@@ -79,7 +79,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(carcassonne, 16.38f));
 
         // Ajout des marqueurs pour la démonstration
-        
+
 
     }
 }
